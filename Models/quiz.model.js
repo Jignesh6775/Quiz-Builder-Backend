@@ -10,7 +10,7 @@ const questionSchema = new mongoose.Schema({
         required: true,
     },
     correctOptions: {
-        type: [Number],
+        type: [String],
         required: true,
     },
 });
